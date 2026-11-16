@@ -22,6 +22,11 @@ FILES
   assets/js/hibiscus.module.js  the 3D flower (also inlined in index.html)
   assets/img/                logo + Audrey's photos used on the home page
 
+PUBLISHING ON GITHUB PAGES
+  Live site: https://zeeverse-dev.github.io/KSoul-Travel/
+  The Pages workflow deploys automatically whenever changes are pushed to main.
+  In repository Settings > Pages, keep the source set to GitHub Actions.
+
 BEFORE GOING LIVE
   - "Design my trip" buttons link to the live questionnaire: https://ksoultravel.com/questionaire/
   - Contact form + newsletter are front-end only: connect them to your form / newsletter plugin.
