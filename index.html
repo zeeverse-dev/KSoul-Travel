@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>K-SOUL Travel | Personalized Travel Planning & Itineraries</title>
+<meta name="description" content="K-SOUL Travel creates personalized trips and custom itineraries for honeymoons, solo travel, families and Korea lovers.">
+<meta name="theme-color" content="#0E4535">
+<link rel="icon" href="https://ksoultravel.com/wp-content/uploads/2026/05/cropped-WhatsApp_Image_2026-05-14_at_10.58.57_PM-removebg-preview-32x32.png">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600&family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Jost:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css">
+<script type="importmap">{"imports":{"three":"https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.module.js","three/addons/":"https://cdn.jsdelivr.net/npm/three@0.160.0/examples/jsm/"}}</script>
+<script>window.KSHero={bloom:0,p:0,mx:0,my:0};</script>
+</head>
+<body>
+<div class="aurora" aria-hidden="true"><i></i><i></i><i></i></div>
+<div class="grain" aria-hidden="true"></div>
+<div class="curtain" aria-hidden="true"><div class="panel"></div><div class="flower"><svg viewBox="-50 -50 100 100"><g><path transform="rotate(0)" d="M0 -4 C 14 -10 22 -30 12 -44 C 6 -50 -6 -50 -12 -44 C -22 -30 -14 -10 0 -4Z" fill="#F4A7B9" stroke="#E7CC8A" stroke-width=".8" opacity=".95"/><path transform="rotate(72)" d="M0 -4 C 14 -10 22 -30 12 -44 C 6 -50 -6 -50 -12 -44 C -22 -30 -14 -10 0 -4Z" fill="#F4A7B9" stroke="#E7CC8A" stroke-width=".8" opacity=".95"/><path transform="rotate(144)" d="M0 -4 C 14 -10 22 -30 12 -44 C 6 -50 -6 -50 -12 -44 C -22 -30 -14 -10 0 -4Z" fill="#F4A7B9" stroke="#E7CC8A" stroke-width=".8" opacity=".95"/><path transform="rotate(216)" d="M0 -4 C 14 -10 22 -30 12 -44 C 6 -50 -6 -50 -12 -44 C -22 -30 -14 -10 0 -4Z" fill="#F4A7B9" stroke="#E7CC8A" stroke-width=".8" opacity=".95"/><path transform="rotate(288)" d="M0 -4 C 14 -10 22 -30 12 -44 C 6 -50 -6 -50 -12 -44 C -22 -30 -14 -10 0 -4Z" fill="#F4A7B9" stroke="#E7CC8A" stroke-width=".8" opacity=".95"/><circle r="7" fill="#B8174E"/><circle r="3" fill="#E7CC8A"/></g></svg></div><div class="word">K-SOUL TRAVEL</div></div>
+<div class="cursor" aria-hidden="true"><b>VIEW</b></div><div class="cursor-dot" aria-hidden="true"></div>
+<div id="progress" aria-hidden="true"></div>
+
+<header class="nav glass">
+  <a href="index.html" class="logo" aria-label="K-SOUL Travel home"><img src="assets/img/logo.webp" alt="K-SOUL Travel Personalized Travel Planning &amp; Experiences"></a>
+  <ul><li><a href="about.html">About</a></li><li><a href="design-your-trip.html">Design Your Trip</a></li><li><a href="digital-guides.html">Digital Guides</a></li><li><a href="travel-with-me.html">Travel With Me</a></li><li><a href="book-a-call.html">Book A Call</a></li><li><a href="contact.html">Contact</a></li><li><a href="blog.html">Blog</a></li></ul>
+  <div class="lang"><a class="on" href="#">EN</a><a href="https://ksoultravel.com/it/">IT</a><a href="https://ksoultravel.com/es/">ES</a></div>
+  <a href="https://ksoultravel.com/questionaire/" class="btn btn-gold" data-magnetic><span>Design my trip</span></a>
+  <button class="burger" aria-label="Menu"><i></i><i></i></button>
+</header>
+<nav class="mmenu"><a href="index.html" class="active">Home</a><a href="about.html">About</a><a href="design-your-trip.html">Design Your Trip</a><a href="digital-guides.html">Digital Guides</a><a href="travel-with-me.html">Travel With Me</a><a href="book-a-call.html">Book A Call</a><a href="contact.html">Contact</a><a href="blog.html">Blog</a><a href="https://ksoultravel.com/questionaire/" class="btn btn-gold"><span>Design my trip</span></a></nav>
+<main>
+<section id="hero3d" data-cursor="">
+  <canvas id="flowerCanvas" aria-label="3D glass hibiscus flower, the K-SOUL emblem"></canvas>
+  <div class="hero-ui">
+    <div class="hero-copy">
+      <span class="eyebrow hero-in">Personalized travel planning</span>
+      <h1 class="display mt-s"><span class="hl"><span>Your dream trip,</span></span><br><span class="hl"><span>designed with <em>soul</em></span></span></h1>
+      <p class="lead hero-in">Custom itineraries for honeymoons, solo travel, families and Korea lovers — crafted around you, from the first idea to your return home.</p>
+      <div class="btns hero-in"><a href="https://ksoultravel.com/questionaire/" class="btn btn-gold" data-magnetic><span>Design my trip <i class="arr">→</i></span></a><a href="#how" class="btn btn-glass" data-magnetic><span>How it works</span></a></div>
+      <div class="hero-chips hero-in"><span class="chip glass">💍 Honeymoons</span><span class="chip glass">🧳 Solo women</span><span class="chip glass">🇰🇷 Korea specialist</span><span class="chip glass">🕌 Halal-friendly</span></div>
+    </div>
+    <aside class="hero-card glass glass-sheen hero-in">
+      <div class="row"><img src="assets/img/k5.jpg" alt="Audrey in Kyoto"><div><b>Hi, I’m Audrey</b><br><small>Founder of K-SOUL · based in South Korea</small></div></div>
+      <small>6 years on the road, 50+ countries across 5 continents — now designing yours.</small>
+      <span class="stars">★★★★★ <small style="color:var(--text);letter-spacing:0">loved by travelers worldwide</small></span>
+    </aside>
+  </div>
+  <div class="hero-bottom hero-in"><span>HONEYMOONS · SOLO · FAMILIES · KOREA LOVERS</span><span class="scroll-ind"><i></i>SCROLL</span></div>
+  <div class="hero-veil"></div>
+</section>
+
+<div data-flight data-flight-start="120" style="position:relative">
+
+<section class="section center">
+  <div class="container">
+    <span class="eyebrow" data-reveal>The K-SOUL way</span>
+    <p class="statement" data-words="ideas,inspirations,dream,reality,uniquely,you.">K-SOUL transforms your ideas, inspirations and dream destinations into reality — with personalized trips designed uniquely around you.</p>
+  </div>
+</section>
+
+<section class="section" style="padding-top:0">
+  <div class="container">
+    <span class="eyebrow" data-reveal>Why choose K-SOUL</span>
+    <h2 class="h2 mt-s" data-split>Travel planned<br>with <em>heart</em> &amp; care</h2>
+    <div class="bento" data-stagger>
+      <article class="tile tall photo" data-tilt="6" data-cursor="VIEW"><img class="bg" src="assets/img/k5.jpg" alt="Audrey in a kimono at Kinkaku-ji, Kyoto" data-parallax="5"><span class="n">01</span>
+        <div class="glass-cap glass-dark"><h3>From Dream To Reality</h3><p>K-SOUL transforms your ideas, inspirations and dream destinations into reality with personalized trips designed uniquely around you.</p></div></article>
+      <article class="tile glass" data-tilt="8"><span class="n">02</span><div class="ico"><img src="assets/img/compass.png" alt=""></div>
+        <h3>Completely Stress-Free</h3><p>I take care of you from the first planning stages and accompany you throughout your entire journey until your return home.</p></article>
+      <article class="tile glass" data-tilt="8"><span class="n">03</span><div class="ico"><img src="assets/img/worldwide.png" alt=""></div>
+        <h3>A Journey For Everyone</h3><p>Honeymoons, proposals, family trips, solo adventures, healing escapes, relocating abroad or trips with friends.</p></article>
+      <article class="tile wide photo" data-tilt="5" data-cursor="VIEW"><img class="bg" src="assets/img/karst.jpg" alt="Audrey among karst mountains" data-parallax="5"><span class="n">04</span>
+        <div class="glass-cap glass-dark" style="max-width:560px"><h3>My Experience</h3><p>Through my personal experience, the locals I work with and trusted partnerships: hidden gems, no tourist traps, selected upgrades and unique opportunities.</p></div></article>
+    </div>
+  </div>
+</section>
+
+
+<section class="section" id="how">
+  <div class="container">
+    <div class="center"><span class="eyebrow" data-reveal>How it works</span><h2 class="h2 mt-s" data-split>Five steps to your<br><em>dream journey</em></h2></div>
+    <div class="steps-wrap" data-steps>
+      <div class="steps-visual" data-cursor="VIEW"><img src="assets/img/karst.jpg" alt=""><img src="assets/img/k5.jpg" alt=""><img src="assets/img/k1.jpg" alt=""><img src="assets/img/k7.jpg" alt=""><img src="assets/img/beach.jpg" alt=""><div class="steps-bar"><i><b></b></i><i><b></b></i><i><b></b></i><i><b></b></i><i><b></b></i></div><div class="glass-dark"><span class="big">01</span><span class="lbl">Share Your Vision</span></div></div>
+      <div class="steps-list"><div class="step"><span class="num">STEP 01</span><h3 class="h3">Share Your Vision</h3><p class="lead">Fill out the questionnaire and tell me about your dream trip, travel style, preferences, expectations, special requests, and every detail that matters to you.</p></div><div class="step"><span class="num">STEP 02</span><h3 class="h3">Travel Review</h3><p class="lead">I carefully review your request to fully understand what you're looking for and create a personalized proposal tailored to your vision.</p></div><div class="step"><span class="num">STEP 03</span><h3 class="h3">Your Approval</h3><p class="lead">Review the proposal and let me know if you'd like any adjustments. Once you're happy with every detail, we'll move forward with the final planning process.</p></div><div class="step"><span class="num">STEP 04</span><h3 class="h3">Planning</h3><p class="lead">Once approved, I take care of the complete organization of your trip from A to Z, carefully managing every detail to create an experience designed entirely around you.</p></div><div class="step"><span class="num">STEP 05</span><h3 class="h3">Enjoy Your Journey</h3><p class="lead">From the planning stage until your return home, I remain available throughout your journey to provide support whenever needed, so you can simply relax and enjoy the experience.</p></div></div>
+    </div>
+  </div>
+</section>
+
+</div>
+
+<section class="hs" data-hscroll>
+  <div class="hs-pin">
+    <div class="hs-head">
+      <div><span class="eyebrow">Travel with me</span><h2 class="h2 mt-s">Small group trips,<br><em>with soul</em></h2></div>
+      <p class="lead">Come as a traveler. Leave with a story. Join Audrey on hand-crafted group journeys.</p>
+    </div>
+    <div class="hs-track"><a class="trip" href="travel-with-me.html" data-cursor="TRIP">
+  <img src="https://ksoultravel.com/wp-content/uploads/2026/09/fadhil-abhimantra-u_Uwt5DVMCo-unsplash-1-909x1024.jpg" alt="Kazakhstan: The Road to the Stars"><span class="tag glass">Available</span>
+  <div class="info glass-dark"><span class="when">June 2028</span><h3>Kazakhstan: The Road to the Stars</h3><ul><li>11 Days / 10 Nights</li><li>June 17–27, 2028</li><li>Max 8 Travelers</li></ul></div></a><a class="trip" href="travel-with-me.html" data-cursor="TRIP">
+  <img src="https://ksoultravel.com/wp-content/uploads/2026/09/WhatsApp-Image-2026-09-27-at-5.54.30-PM-988x1024.jpeg" alt="Japan: From Cherry Blossoms to the Sea"><span class="tag glass">Available</span>
+  <div class="info glass-dark"><span class="when">March – April 2028</span><h3>Japan: From Cherry Blossoms to the Sea</h3><ul><li>15 Days / 14 Nights</li><li>March 27 – April 10, 2028</li><li>Max 9 Travelers</li></ul></div></a><a class="trip" href="travel-with-me.html" data-cursor="TRIP">
+  <img src="https://ksoultravel.com/wp-content/uploads/2026/09/patagonia-antarctica-3-921x1024.jpg" alt="Patagonia &amp; Antarctica"><span class="tag glass">Available</span>
+  <div class="info glass-dark"><span class="when">December 2028</span><h3>Patagonia &amp; Antarctica</h3><ul><li>18 Days / 17 Nights</li><li>December 3–20, 2028</li><li>Max 7 Travelers</li></ul></div></a>
+      <a class="trip glass" href="travel-with-me.html" style="display:grid;place-items:center;text-align:center;padding:40px" data-cursor="ALL">
+        <div><span class="eyebrow">Coming soon</span><h3 class="h3 mt-s">Italy · Jeju · Kyrgyzstan<br>France · China · Amazon</h3><span class="btn btn-gold mt-m"><span>All trips <i class="arr">→</i></span></span></div></a>
+    </div>
+  </div>
+</section>
+
+
+<section class="section" style="padding-bottom:60px">
+  <div class="container center">
+    <span class="eyebrow" data-reveal>Testimonials</span>
+    <h2 class="h2 mt-s" data-split>Clients experiences<br>with <em>K-SOUL</em></h2>
+  </div>
+  <div class="fade-x mt-l" data-cursor="READ"><div class="marquee"><article class="review glass"><span class="trip-l">7 Days · Maldives Proposal Trip</span><blockquote>“She took care of every single detail and designed a proposal that felt elegant, intimate and emotional instead of overly flashy or cliché. She even managed to find a violinist last minute… and thankfully, she said yes.”</blockquote><footer><div><b>Michael A.</b><br><span>United Kingdom</span></div><span class="stars">★★★★★</span></footer></article><article class="review glass"><span class="trip-l">21 Days · Patagonia & Antarctica Honeymoon</span><blockquote>“Audrey made the entire experience feel seamless from beginning to end and we genuinely felt treated like VIP clients the whole time. We received two unexpected upgrades, and it truly became the honeymoon trip of our dreams.”</blockquote><footer><div><b>Daniel & Olivia</b><br><span>Australia</span></div><span class="stars">★★★★★</span></footer></article><article class="review glass"><span class="trip-l">8 Days · Kazakhstan</span><blockquote>“Audrey organized for us to spend three nights inside traditional yurts with local families she personally knew, which allowed us to experience a completely different side of the country.”</blockquote><footer><div><b>Lucas M.</b><br><span>Spain</span></div><span class="stars">★★★★★</span></footer></article><article class="review glass"><span class="trip-l">25 Days · Japan Solo Trip</span><blockquote>“She personally booked restaurants for me, made sure every place was halal-friendly and helped me discover local spots I would’ve never found on my own.”</blockquote><footer><div><b>Omar</b><br><span>United Arab Emirates</span></div><span class="stars">★★★★★</span></footer></article><article class="review glass"><span class="trip-l">7 Days · Maldives Proposal Trip</span><blockquote>“She took care of every single detail and designed a proposal that felt elegant, intimate and emotional instead of overly flashy or cliché. She even managed to find a violinist last minute… and thankfully, she said yes.”</blockquote><footer><div><b>Michael A.</b><br><span>United Kingdom</span></div><span class="stars">★★★★★</span></footer></article><article class="review glass"><span class="trip-l">21 Days · Patagonia & Antarctica Honeymoon</span><blockquote>“Audrey made the entire experience feel seamless from beginning to end and we genuinely felt treated like VIP clients the whole time. We received two unexpected upgrades, and it truly became the honeymoon trip of our dreams.”</blockquote><footer><div><b>Daniel & Olivia</b><br><span>Australia</span></div><span class="stars">★★★★★</span></footer></article><article class="review glass"><span class="trip-l">8 Days · Kazakhstan</span><blockquote>“Audrey organized for us to spend three nights inside traditional yurts with local families she personally knew, which allowed us to experience a completely different side of the country.”</blockquote><footer><div><b>Lucas M.</b><br><span>Spain</span></div><span class="stars">★★★★★</span></footer></article><article class="review glass"><span class="trip-l">25 Days · Japan Solo Trip</span><blockquote>“She personally booked restaurants for me, made sure every place was halal-friendly and helped me discover local spots I would’ve never found on my own.”</blockquote><footer><div><b>Omar</b><br><span>United Arab Emirates</span></div><span class="stars">★★★★★</span></footer></article></div><div class="marquee rev"><article class="review glass"><span class="trip-l">2 Months · South America</span><blockquote>“Audrey organized everything carefully for us, choosing safe neighborhoods, trusted hotels and even reliable local guides. Despite how long the journey was, everything flowed perfectly from beginning to end.”</blockquote><footer><div><b>Giulia & Martina</b><br><span>Italy</span></div><span class="stars">★★★★★</span></footer></article><article class="review glass"><span class="trip-l">9 Days · South Korea</span><blockquote>“As someone obsessed with K-pop, skincare and K-dramas, this trip honestly felt like a dream. Audrey sent me the best skincare clinics, local beauty spots and amazing local restaurants that only someone living in Korea would know.”</blockquote><footer><div><b>Camila G.</b><br><span>Mexico</span></div><span class="stars">★★★★★</span></footer></article><article class="review glass"><span class="trip-l">14 Days · Italy Family Trip</span><blockquote>“Traveling with 3 small children honestly scared us a lot at first…but everything was perfect. Every detail was carefully organized and all the activities were very family and child-friendly.”</blockquote><footer><div><b>Sarah W.</b><br><span>United States</span></div><span class="stars">★★★★★</span></footer></article><article class="review glass"><span class="trip-l">17 Days · South Korea</span><blockquote>“I specifically wanted my South Korea trip to be organized by someone who had actually lived there, and Audrey did an incredible job. I also had the chance to visit Jeju Island and experience a side of Korea that felt much more real.”</blockquote><footer><div><b>Emily R.</b><br><span>United States</span></div><span class="stars">★★★★★</span></footer></article><article class="review glass"><span class="trip-l">2 Months · South America</span><blockquote>“Audrey organized everything carefully for us, choosing safe neighborhoods, trusted hotels and even reliable local guides. Despite how long the journey was, everything flowed perfectly from beginning to end.”</blockquote><footer><div><b>Giulia & Martina</b><br><span>Italy</span></div><span class="stars">★★★★★</span></footer></article><article class="review glass"><span class="trip-l">9 Days · South Korea</span><blockquote>“As someone obsessed with K-pop, skincare and K-dramas, this trip honestly felt like a dream. Audrey sent me the best skincare clinics, local beauty spots and amazing local restaurants that only someone living in Korea would know.”</blockquote><footer><div><b>Camila G.</b><br><span>Mexico</span></div><span class="stars">★★★★★</span></footer></article><article class="review glass"><span class="trip-l">14 Days · Italy Family Trip</span><blockquote>“Traveling with 3 small children honestly scared us a lot at first…but everything was perfect. Every detail was carefully organized and all the activities were very family and child-friendly.”</blockquote><footer><div><b>Sarah W.</b><br><span>United States</span></div><span class="stars">★★★★★</span></footer></article><article class="review glass"><span class="trip-l">17 Days · South Korea</span><blockquote>“I specifically wanted my South Korea trip to be organized by someone who had actually lived there, and Audrey did an incredible job. I also had the chance to visit Jeju Island and experience a side of Korea that felt much more real.”</blockquote><footer><div><b>Emily R.</b><br><span>United States</span></div><span class="stars">★★★★★</span></footer></article></div></div>
+</section>
+
+<section class="section center">
+  <div class="container">
+    <span class="eyebrow" data-reveal>Signature experiences</span>
+    <h2 class="h2 mt-s" data-split>Special travel &amp; tour<br>services <em>for you</em></h2>
+    <div class="pills" data-stagger><span class="pill glass"><i>✦</i>Complete Personalized Travel Planning</span><span class="pill glass"><i>✦</i>48h Express Planning</span><span class="pill glass"><i>✦</i>Itinerary Review</span><span class="pill glass"><i>✦</i>Couples, Honeymoons & Proposals</span><span class="pill glass"><i>✦</i>Solo Women Travel</span><span class="pill glass"><i>✦</i>Muslim-Friendly Travel</span><span class="pill glass"><i>✦</i>Adventure & Extreme Experiences</span><span class="pill glass"><i>✦</i>Family & Kids Travel</span><span class="pill glass"><i>✦</i>Friends & Group Trips</span><span class="pill glass"><i>✦</i>Relocation & Visa Support</span><span class="pill glass"><i>✦</i>Healing & Reconnection Trips</span><span class="pill glass"><i>✦</i>Luxury & VIP Experiences</span><span class="pill glass"><i>✦</i>Content Creator & Photography Trips</span><span class="pill glass"><i>✦</i>Korea Specialist Experiences</span><span class="pill glass"><i>✦</i>Off-The-Beaten-Path Destinations</span></div>
+  </div>
+</section>
+
+
+<section class="cta" data-circle>
+  <div class="cta-media"><img src="assets/img/hero.jpg" alt=""></div>
+  <div class="cta-inner"><div class="cta-box glass-dark">
+    <span class="eyebrow">Your next chapter</span>
+    <h2 class="h2" style="margin-top:16px">You’re <em>ready</em><br>to start?</h2>
+    <p>Tell me about the trip you’ve been dreaming of — I’ll take care of everything else.</p>
+    <div class="btns" style="justify-content:center"><a href="https://ksoultravel.com/questionaire/" class="btn btn-gold" data-magnetic><span>Design my trip <i class="arr">→</i></span></a><a href="book-a-call.html" class="btn btn-glass on-dark" data-magnetic><span>Book a call</span></a></div>
+  </div></div>
+</section>
+</main>
+<footer class="footer glass">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <img class="flogo" src="assets/img/logo.webp" alt="K-SOUL Travel">
+        <p class="tag">Your dream trip,<br>designed with soul ✦</p>
+        <p style="margin-top:22px;color:var(--text);max-width:380px">Join the K-SOUL list: travel inspiration, hidden gems, future group trips and <b style="color:var(--green);font-weight:500">10% off</b> all digital travel guides.</p>
+        <form class="news glass" data-demo><input type="email" placeholder="Your email" required aria-label="Email"><button class="btn btn-gold" type="submit"><span>Subscribe</span></button></form>
+        <p class="form-msg" style="margin-top:12px">Thank you ✦ — please connect this form to your newsletter tool.</p>
+      </div>
+      <div><h4>Explore</h4><ul>
+        <li><a href="about.html">About</a></li><li><a href="design-your-trip.html">Design Your Trip</a></li>
+        <li><a href="digital-guides.html">Digital Guides</a></li><li><a href="travel-with-me.html">Travel With Me</a></li><li><a href="blog.html">Blog</a></li></ul></div>
+      <div><h4>Support</h4><ul>
+        <li><a href="book-a-call.html">Book A Call</a></li><li><a href="contact.html">Contact</a></li><li><a href="https://ksoultravel.com/faq/">FAQ</a></li>
+        <li><a href="mailto:info.ksoultravel@gmail.com">info.ksoultravel@gmail.com</a></li></ul></div>
+      <div><h4>Follow</h4><ul>
+        <li><a href="https://www.instagram.com/ksoultravel" target="_blank" rel="noopener">Instagram</a></li>
+        <li><a href="https://www.instagram.com/iamaudreymartin" target="_blank" rel="noopener">Personal Instagram</a></li>
+        <li><a href="https://youtube.com/@audreymartin" target="_blank" rel="noopener">YouTube</a></li>
+        <li><a href="https://www.tiktok.com/@iamaudreymartin" target="_blank" rel="noopener">TikTok</a></li></ul></div>
+    </div>
+    <div class="big">K-SOUL</div>
+    <div class="footer-bottom">
+      <span>© <span data-year></span> K-SOUL Travel. All rights reserved.</span>
+      <div><a href="https://ksoultravel.com/privacy-policy/">Privacy Policy</a><a href="https://ksoultravel.com/cookie-policy/">Cookie Policy</a><a href="https://ksoultravel.com/terms-conditions/">Terms &amp; Conditions</a><a href="https://ksoultravel.com/cookie-preferences/">Cookie Preferences</a></div>
+    </div>
+  </div>
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/lenis@1.1.13/dist/lenis.min.js"></script>
+<script>
+window.KS = window.KS || {};
+/* Home: hero intro + scroll scene driving the 3D hibiscus */
+(function(){
+  const S = window.KSHero;
+  document.querySelectorAll('.hero-copy .hl').forEach(h => { h.style.display='inline-block'; h.style.overflow='hidden'; h.style.paddingBottom='.06em'; h.firstElementChild.style.display='inline-block'; });
+  addEventListener('mousemove', e => { S.mx = e.clientX / innerWidth - .5; S.my = e.clientY / innerHeight - .5; });
+  KS.beforeScenes = function(){
+    gsap.timeline({ scrollTrigger:{ trigger:'#hero3d', start:'top top', end:'+=140%', scrub:1, pin:true } })
+      .to(S, { p:1, ease:'none', duration:1 }, 0)
+      .to('.hero-copy', { y:-120, opacity:0, ease:'power1.in', duration:.35 }, 0)
+      .to('.hero-card', { y:-80, opacity:0, duration:.3 }, 0)
+      .to('.hero-bottom', { opacity:0, duration:.15 }, 0)
+      .to('.hero-veil', { opacity:1, duration:.18, ease:'none' }, .82);
+  };
+  KS.onStart = function(){
+    gsap.to(S, { bloom:1.08, duration:3.2, ease:'power2.out', delay:.6 });
+    gsap.from('.hero-copy .hl > span', { yPercent:115, rotate:4, duration:1.5, stagger:.12, ease:'expo.out', delay:.7 });
+    gsap.from('.hero-in', { y:40, opacity:0, duration:1.2, stagger:.1, ease:'expo.out', delay:1 });
+    gsap.from('.nav', { y:-100, opacity:0, duration:1.2, ease:'expo.out', delay:.9, clearProps:'transform' });
+  };
+})();
+</script>
+<script src="assets/js/main.js"></script>
+<script type="module">
+/* =====================================================================
+   K-SOUL — 3D glass Mugunghwa (hibiscus) from the logo
+   Three.js r160 · MeshPhysicalMaterial transmission ("glass")
+   Reads shared state from window.KSHero = {bloom, p, mx, my}
+   ===================================================================== */
+import * as THREE from 'three';
+import { RoomEnvironment } from 'three/addons/environments/RoomEnvironment.js';
+
+const canvas = document.getElementById('flowerCanvas');
+if (canvas) {
+  const S = window.KSHero || (window.KSHero = { bloom: 0, p: 0, mx: 0, my: 0 });
+  const mobile = innerWidth < 980;
+  const renderer = new THREE.WebGLRenderer({ canvas, antialias: true, powerPreference: 'high-performance' });
+  renderer.setPixelRatio(Math.min(devicePixelRatio, mobile ? 1.5 : 2));
+  renderer.toneMapping = THREE.ACESFilmicToneMapping;
+  renderer.toneMappingExposure = 1.0;
+  renderer.outputColorSpace = THREE.SRGBColorSpace;
+
+  const scene = new THREE.Scene();
+  const pmrem = new THREE.PMREMGenerator(renderer);
+  scene.environment = pmrem.fromScene(new RoomEnvironment(renderer), .04).texture;
+
+  const camera = new THREE.PerspectiveCamera(30, 1, .1, 100);
+  camera.position.set(0, 0, 10);
+
+  /* ---- living aurora backdrop (also what the glass refracts) ---- */
+  const bgMat = new THREE.ShaderMaterial({
+    uniforms: { t: { value: 0 }, c: { value: new THREE.Vector2(.68, .5) }, asp: { value: 1 } },
+    vertexShader: `varying vec2 vUv; void main(){ vUv = uv; gl_Position = vec4(position.xy, .9999, 1.); }`,
+    fragmentShader: `
+      uniform float t; uniform vec2 c; uniform float asp; varying vec2 vUv;
+      float blob(vec2 uv, vec2 p, float r){ vec2 d = uv - p; d.x *= asp; return smoothstep(r, 0., length(d)); }
+      void main(){
+        vec2 uv = vUv;
+        vec3 col = vec3(.984,.972,.953);
+        col = mix(col, vec3(.976,.80,.85), .70*blob(uv, c + vec2(.10+.05*sin(t*.21), .12+.05*cos(t*.17)), .55));
+        col = mix(col, vec3(.80,.89,.85),  .65*blob(uv, vec2(.18+.06*cos(t*.19), .22+.07*sin(t*.23)), .60));
+        col = mix(col, vec3(.96,.88,.68),  .55*blob(uv, vec2(.92+.04*cos(t*.13), .86+.05*sin(t*.2)), .45));
+        col = mix(col, vec3(.06,.30,.23),  .55*blob(uv, c + vec2(-.06+.03*sin(t*.3), -.08), .26));
+        col = mix(col, vec3(.85,.34,.50),  .45*blob(uv, c + vec2(.08, .10+.03*cos(t*.27)), .18));
+        float g = fract(sin(dot(uv*900., vec2(12.9898,78.233)))*43758.5453);
+        col += (g-.5)*.018;
+        gl_FragColor = vec4(col, 1.);
+      }`,
+    depthWrite: false, depthTest: false, toneMapped: false
+  });
+  const bg = new THREE.Mesh(new THREE.PlaneGeometry(2, 2), bgMat);
+  bg.frustumCulled = false; bg.renderOrder = -10; scene.add(bg);
+
+  /* ---- petal: parametric ruffled cup ---- */
+  const heart = new THREE.Color('#B8174E'), pink = new THREE.Color('#F49AB4'), edge = new THREE.Color('#FFE4EC');
+  function petalGeometry(len = 1.9) {
+    const g = new THREE.PlaneGeometry(1, 1, 30, 40);
+    const p = g.attributes.position, cols = [];
+    const c = new THREE.Color();
+    for (let i = 0; i < p.count; i++) {
+      const u = p.getX(i) + .5, v = p.getY(i) + .5, xn = (u - .5) * 2;
+      const w = .07 + (v < .56 ? 1.02 * Math.pow(Math.sin(Math.PI / 2 * v / .56), .85) : 1.02 * Math.sqrt(Math.max(0, 1 - Math.pow((v - .56) / .46, 2))));
+      const x = xn * w;
+      const y = v * len;
+      const z = -(.62 * v * v) + .30 * xn * xn * v
+        + .07 * Math.sin(xn * 6.5 + v * 5) * Math.pow(v, 2.4)
+        + .045 * Math.sin(xn * 15 + 1.3) * Math.pow(v, 4);
+      p.setXYZ(i, x, y, z);
+      c.copy(heart).lerp(pink, THREE.MathUtils.smoothstep(v, .02, .36));
+      c.lerp(edge, THREE.MathUtils.smoothstep(v, .72, 1.0) * .7);
+      // veins
+      const vein = Math.pow(Math.abs(Math.sin(xn * 9)), 18) * (1 - v) * .25;
+      c.lerp(heart, vein);
+      cols.push(c.r, c.g, c.b);
+    }
+    g.setAttribute('color', new THREE.Float32BufferAttribute(cols, 3));
+    g.computeVertexNormals();
+    return g;
+  }
+  const glass = new THREE.MeshPhysicalMaterial({
+    vertexColors: true, transmission: .9, roughness: .14, thickness: .9, ior: 1.42,
+    iridescence: .55, iridescenceIOR: 1.25, clearcoat: 1, clearcoatRoughness: .08,
+    sheen: .5, sheenColor: new THREE.Color('#ffd6e2'), sheenRoughness: .4,
+    attenuationColor: new THREE.Color('#f39ab5'), attenuationDistance: 2.2,
+    side: THREE.DoubleSide, envMapIntensity: 1.25, transparent: false
+  });
+
+  const flower = new THREE.Group(); scene.add(flower);
+  const petals = [];
+  const pg = petalGeometry();
+  for (let i = 0; i < 5; i++) {
+    const pivot = new THREE.Group();
+    pivot.rotation.y = i * Math.PI * 2 / 5 + (i % 2 ? .05 : -.04);
+    const m = new THREE.Mesh(pg, glass);
+    m.rotation.z = .22;                      // pinwheel overlap like a real hibiscus
+    pivot.add(m); flower.add(pivot);
+    petals.push({ pivot, m, d: i * .08 });
+  }
+
+  /* ---- staminal column + anthers + stigma ---- */
+  const curve = new THREE.CatmullRomCurve3([new THREE.Vector3(0, 0, 0), new THREE.Vector3(.04, .5, .02), new THREE.Vector3(.12, 1.05, .06), new THREE.Vector3(.26, 1.55, .1)]);
+  const column = new THREE.Mesh(new THREE.TubeGeometry(curve, 40, .04, 10, false),
+    new THREE.MeshPhysicalMaterial({ color: '#E04C7E', roughness: .3, clearcoat: 1, transmission: .3, thickness: .3 }));
+  flower.add(column);
+  const anther = new THREE.MeshPhysicalMaterial({ color: '#F2C14E', roughness: .35, metalness: .2, clearcoat: .6 });
+  const sG = new THREE.SphereGeometry(.035, 10, 10);
+  for (let i = 0; i < 46; i++) {
+    const t = .55 + Math.random() * .38, pt = curve.getPoint(t);
+    const a = Math.random() * Math.PI * 2, r = .07 + Math.random() * .07;
+    const s = new THREE.Mesh(sG, anther); s.position.set(pt.x + Math.cos(a) * r, pt.y + (Math.random() - .5) * .05, pt.z + Math.sin(a) * r);
+    s.scale.setScalar(.7 + Math.random() * .6); flower.add(s);
+  }
+  const stig = new THREE.MeshPhysicalMaterial({ color: '#A3123F', roughness: .25, clearcoat: 1 });
+  const top = curve.getPoint(1);
+  for (let i = 0; i < 5; i++) {
+    const a = i / 5 * Math.PI * 2; const s = new THREE.Mesh(new THREE.SphereGeometry(.055, 14, 14), stig);
+    s.position.set(top.x + Math.cos(a) * .09, top.y + .05, top.z + Math.sin(a) * .09); flower.add(s);
+  }
+
+  /* ---- two glass leaves ---- */
+  function leafGeometry() {
+    const g = new THREE.PlaneGeometry(1, 1, 16, 30); const p = g.attributes.position;
+    for (let i = 0; i < p.count; i++) {
+      const u = p.getX(i) + .5, v = p.getY(i) + .5, xn = (u - .5) * 2;
+      const w = .42 * Math.sin(Math.PI * Math.pow(v, .9));
+      p.setXYZ(i, xn * w, v * 2.1, -.18 * xn * xn + .1 * Math.sin(v * 3) + .03 * Math.sin(xn * 20) * w);
+    }
+    g.computeVertexNormals(); return g;
+  }
+  const leafMat = new THREE.MeshPhysicalMaterial({ color: '#2F7A5A', transmission: .75, roughness: .2, thickness: .6, ior: 1.4, clearcoat: 1, attenuationColor: new THREE.Color('#0E4535'), attenuationDistance: 1.4, side: THREE.DoubleSide, envMapIntensity: 1.1 });
+  const lg = leafGeometry();
+  [[2.6, 1.42, 1.5], [4.3, 1.38, 1.35]].forEach(([ry, rx, sc]) => {
+    const piv = new THREE.Group(); piv.rotation.y = ry; const l = new THREE.Mesh(lg, leafMat);
+    l.rotation.x = rx; l.scale.setScalar(sc * .6); l.position.y = -.12; piv.add(l); flower.add(piv);
+  });
+
+  /* ---- gold sparkles ✦ (logo star) ---- */
+  const starShape = new THREE.Shape();
+  for (let i = 0; i < 8; i++) { const a = i / 8 * Math.PI * 2 - Math.PI / 2, r = i % 2 ? .28 : 1; i ? starShape.lineTo(Math.cos(a) * r, Math.sin(a) * r) : starShape.moveTo(Math.cos(a) * r, Math.sin(a) * r); }
+  const starGeo = new THREE.ExtrudeGeometry(starShape, { depth: .12, bevelEnabled: true, bevelThickness: .06, bevelSize: .05, bevelSegments: 2 });
+  starGeo.center();
+  const goldMat = new THREE.MeshPhysicalMaterial({ color: '#D7A93E', metalness: 1, roughness: .18, clearcoat: 1 });
+  const stars = [];
+  for (let i = 0; i < (mobile ? 10 : 18); i++) {
+    const s = new THREE.Mesh(starGeo, goldMat);
+    const a = Math.random() * Math.PI * 2, r = 2.2 + Math.random() * 2.4;
+    s.position.set(Math.cos(a) * r, Math.sin(a) * r * .7, -1.5 + Math.random() * 2.5);
+    s.scale.setScalar(.05 + Math.random() * .09); s.userData = { sp: .3 + Math.random() * .8, ph: Math.random() * 6, base: s.scale.x };
+    scene.add(s); stars.push(s);
+  }
+
+  /* ---- layout ---- */
+  const base = { x: 0, y: 0, s: 1 };
+  function resize() {
+    const w = canvas.clientWidth, h = canvas.clientHeight;
+    renderer.setSize(w, h, false); camera.aspect = w / h; camera.updateProjectionMatrix();
+    bgMat.uniforms.asp.value = w / h;
+    if (w < 980) { base.x = 0; base.y = 1.05; base.s = .72; bgMat.uniforms.c.value.set(.5, .66); }
+    else { base.x = 1.85; base.y = .12; base.s = .95; bgMat.uniforms.c.value.set(.7, .5); }
+  }
+  addEventListener('resize', resize); resize();
+
+  /* ---- loop ---- */
+  const clock = new THREE.Clock(); let vis = true;
+  new IntersectionObserver(([e]) => vis = e.isIntersecting).observe(canvas);
+  const sm = { mx: 0, my: 0 };
+  function frame() {
+    requestAnimationFrame(frame);
+    if (!vis) return;
+    const t = clock.getElapsedTime(), p = S.p || 0;
+    bgMat.uniforms.t.value = t;
+    sm.mx += ((S.mx || 0) - sm.mx) * .05; sm.my += ((S.my || 0) - sm.my) * .05;
+
+    // bloom: bud → open, with per-petal stagger; scroll opens it further
+    const b = Math.min(Math.max(S.bloom || 0, 0), 1.2);
+    petals.forEach((pt, i) => {
+      const local = THREE.MathUtils.clamp((b - pt.d) / (1 - .32), 0, 1.15);
+      const ease = 1 - Math.pow(1 - Math.min(local, 1), 3) + Math.max(local - 1, 0) * .4;
+      pt.m.rotation.x = .12 + ease * 1.12 + p * .35 + Math.sin(t * 1.2 + i) * .015;
+    });
+    column.scale.setScalar(.4 + Math.min(b, 1) * .6);
+
+    const zoom = THREE.MathUtils.smoothstep(p, .45, 1);
+    flower.position.x = THREE.MathUtils.lerp(base.x, 0, THREE.MathUtils.smoothstep(p, 0, .5)) + sm.mx * .25;
+    flower.position.y = base.y - .55 + Math.sin(t * .8) * .06 + THREE.MathUtils.lerp(0, .25, zoom);
+    flower.scale.setScalar(base.s * (1 + p * .25));
+    flower.rotation.x = .62 + sm.my * .25 - zoom * .45;
+    flower.rotation.y = t * .12 + p * Math.PI * 1.2 + sm.mx * .5;
+    flower.rotation.z = -.12;
+
+    camera.position.z = 10 - zoom * 7.6;
+    camera.position.x = sm.mx * .3; camera.position.y = -sm.my * .2 + zoom * .4;
+    camera.lookAt(flower.position.x * zoom, base.y * (1 - zoom) * .0 + zoom * (flower.position.y + .9), 0);
+
+    stars.forEach(s => { s.rotation.z += .01 * s.userData.sp; s.rotation.y = Math.sin(t * s.userData.sp + s.userData.ph) * .6; s.scale.setScalar(s.userData.base * (.75 + .35 * Math.sin(t * 2 * s.userData.sp + s.userData.ph))); });
+    renderer.render(scene, camera);
+  }
+  frame();
+  window.dispatchEvent(new Event('ks-flower-ready'));
+}
+
+</script>
+</body>
+</html>
